@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+        <title>Restaurant Ratatouille</title>
+        <meta charset="utf-8">
+        <meta name="description" content="165c. uniques">
+</head>
+
+<body>
+    <div id="page">
+    <!-- DIV : Aucun sens sémantique - zone géographique -->
+    
+        <header><!-- Entête de la zone considérée --></header>
+        <nav><!-- Nav. principale de la page -> site --></nav>       
+        <aside><!-- Les à-cotés de la page --></aside>
+        <article><!-- Contenu textuel de la page --></article>
+        <footer><!-- Pied-de-page de la page -> site --></footer>
+        
+    </div>
+</body>
+</html>
