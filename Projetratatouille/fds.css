@@ -1,3 +1,11 @@
-nav {font-size: 20px}
+nav {font-size: 20px;}
 
-footer {height:100px; background-color: black;color:white;}
+body {	background: url("img/rat-ville.jpg") no-repeat center fixed;
+		height:100%;
+		max-width:100%;
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  		background-size: cover; /* version standardisée */}
+
+footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !important;bottom:0px ;}
+
+.footerdiv {margin:auto;}
