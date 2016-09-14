@@ -11,7 +11,8 @@
 </head>
 <?php include ("header.php") ?>
 <body class="franchise">
-<div id="">
+    <div id="">
+
 <div>
     <img class="bann_franch" src="img/banniere_franchise.jpg"/>
 </div>   
@@ -24,14 +25,26 @@
     </section>
 <section>
 <h2> vous souhaitez devenir franchisés? écrivez-nous!</h2>
-<form>
-<input type="validate"/>
-</form>
-</section>
+    <form class="form-horizontal">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend class=" text-center">Nous Contacter pour devenir franchisé</legend>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">Votre Nom et Prénom</label>
+      <div class="col-md-4">
+      <input id="textinput" name="textinput" type="text" placeholder="ex: Damien Aubertin" class="form-control input-md" required="">
+
+      </div>
+    </div>
+
+    </fieldset>
+    </form>
 
 
 
-        
     </div>
 </body>
 <?php include ("footer.php") ?>
