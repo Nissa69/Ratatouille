@@ -9,7 +9,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-
+<?php include ("header.php") ?>
 <body>
 <div id="pagefranchise">
    
@@ -28,14 +28,9 @@
 </section>
 
 
-        <footer>
-        <div class="row text-center">
-            <p class="col-xs-4 col-md-3 col-lg-3"> Mentions légales </p>
-            <p class="col-xs-4">contact</p>
-            <p class="col-xs-4">devenir franchisé</p>
-            </div>
-        </footer>
+
         
     </div>
 </body>
+<?php include ("footer.php") ?>
 </html>

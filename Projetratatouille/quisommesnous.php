@@ -11,17 +11,13 @@
 
 </head>
 
-<body class="index">
+<body class="quisommesnous">
     <div id="page" class="container-fluid" >
     
 <?php include ("header.php") ?>
           
   
-    <div class="row">
-    <h1 class="col-xs-12">Restaurant Ratatouille</h1>
-    <h2 class="col-xs-offset-1 col-xs-10">Le goût de la tradition</h2>
-     
-    </div>
+   
 
     
  

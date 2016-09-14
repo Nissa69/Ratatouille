@@ -1,10 +1,30 @@
+
+@font-face {font-family:"bilboReg";
+			src: url('fonts/bilbo/Bilbo-Regular.otf');}
+
+@font-face {font-family:"bilboStyle";
+			src: url('fonts/bilbo/BilboSwashCaps-Regular.otf');}
+
+@font-face {font-family:'afta';
+			src: url('fonts/afta-sans/AftaSansThin-Regular.otf');}
+
 nav {font-size: 20px;}
 
-body {	background: url("img/rat-ville.jpg") no-repeat center fixed;
-		height:100%;
+.index {	background: url("img/accueil.jpg") no-repeat center fixed;
+		max-height:100%;
 		max-width:100%;
-		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  		background-size: cover; /* version standardisée */}
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
+  		background-size: cover; /*version standardisée */}
+
+ .index h1 {font-family: "bilboStyle", Impact;
+			font-size: 8em;
+			color: white;
+			margin-top: 6%}
+
+.index h2 {font-family: "bilboReg", Impact;
+			font-size: 4em;
+			color: white;
+			}
 
 footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !important;bottom:0px ;}
 
