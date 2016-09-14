@@ -10,8 +10,8 @@
 
 </head>
 <?php include ("header.php") ?>
-<body>
-<div id="pagefranchise">
+<body class="franchise">
+<div id="">
    
     <section>
         <h1>Pourquoi devenir franchisé?</h1>
