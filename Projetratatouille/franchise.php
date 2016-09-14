@@ -11,11 +11,16 @@
 </head>
 <?php include ("header.php") ?>
 <body class="franchise">
+
     <div id="">
 
 <div>
     <img class="bann_franch" src="img/banniere_franchise.jpg"/>
 </div>   
+
+<div id="">
+   
+
     <section>
         <h2>Pourquoi devenir franchisé?</h1>
 	<p>vous profiterez  du rayonnement national dont dispose ratatouille via la licence Disney! De plus, nous ne travaillons qu'avec des produits d'excellente qualité.</p>

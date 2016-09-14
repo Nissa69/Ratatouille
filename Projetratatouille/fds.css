@@ -10,7 +10,13 @@
 
 nav {font-size: 20px;}
 
-.index {	background: url("img/accueil.jpg") no-repeat center fixed;
+footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !important;bottom:0px ;}
+
+.footerdiv {margin:auto;}
+
+/*page index*/
+
+.index {background: url("img/accueil.jpg") no-repeat center fixed;
 		max-height:100%;
 		max-width:100%;
 		-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
@@ -26,9 +32,10 @@ nav {font-size: 20px;}
 			color: white;
 			}
 
-footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !important;bottom:0px ;}
+
 
 .footerdiv {margin:auto;}
+
 .index .panel-default {	 padding:0px;
 						 background-color : rgba(255,255,255, 0.6);
 						 margin-top: 10%
@@ -38,4 +45,6 @@ footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !
 
 .quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
 
+
 .bann_franch {max-height: 400px; max-width: 100%}
+
