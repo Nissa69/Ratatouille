@@ -1,4 +1,6 @@
 
+/*insertion des polices*/
+
 @font-face {font-family:"BilboReg";
 			src: url('fonts/bilbo/Bilbo-Regular.otf');}
 
@@ -8,9 +10,20 @@
 @font-face {font-family:"afta";
 			src: url('fonts/afta-sans/AftaSansThin-Regular.otf');}
 
+/*Commun*/
+
 nav {font-size: 20px;}
 
 footer {height:40px; background-color: #1e1c1c; color:white;}
+
+.quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
+body {font-family: "afta", Impact; background-color: white}
+
+section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em}
+
+h2 {margin-bottom:30px}
+
+.bann { margin-top: 50px}
 
 .footerdiv {margin:auto;}
 
@@ -43,33 +56,7 @@ footer {height:40px; background-color: #1e1c1c; color:white;}
 
 /*page qui sommes-nous*/
 
-.quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
-body {font-family: "afta", Impact; background-color: white}
-section {margin-bottom: 40px; min-height : 200px; font-size: 1.3em}
-h2 {margin-bottom:30px}
-
-/*page qui sommes-nous*/
-
-.bann_franch {max-height: 400px; max-width: 100%}
-
-
-.franchise h2 {font-family: "bilboReg", Impact;
-				font-size: 3em}
-
-.quisommesnous p {
-
-}
-
-body {
-	font-family: "afta";
-}
-
-#Aboutpage {
-	z-index: 999;
-	padding-top: 100px;
-}
-
-#haut_de_page {
+.imageqsn {
 	/*display: block;
 	position: relative;*/
 	border: 5px solid black;
@@ -77,36 +64,10 @@ body {
 	padding-left: 0px;
 }
 
-#milieu_de_page {
-	/*display: block;
-	position: relative;*/
-	border: 5px solid black;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-#bas_de_page {
-	/*display: block;
-	position: relative;*/
-	border: 5px solid black;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-bottom: 20px;
-}
-
-#parab {
-	padding-top: 50px;
-}
-
-#param {
-	padding-top: 50px;
-}
-
-#parat {
-	padding-top: 20px;
-}
-.soustitre {
-	text-transform: uppercase;
-}
+/*page franchise*/
 
 
+
+
+.franchise h2, .quisommesnous h2 {font-family: "bilboReg", Impact;
+	font-size: 3em}

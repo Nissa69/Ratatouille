@@ -15,8 +15,8 @@
 
 
 
-        <div>
-            <img class="bann_franch" src="img/banniere_franchise.jpg"/>
+        <div class="row">
+            <img class="bann img-responsive" src="img/banniere_franchise.jpg"/>
         </div>
 
 

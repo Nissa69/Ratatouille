@@ -14,33 +14,33 @@
 <body class="quisommesnous">
 <?php include ("header.php") ?>
 
-    <section id="Aboutpage" class="container" >
+    <div class="container" >
+		<div>
+			<img class="bann img-responsive" src="img/banniere_qsn.jpg"/>
+		</div>
      
-		<div class="row">
+		<section class="row">
 			<div class="col-xs-8">
-				<h1>
-					Qui sommes nous ?
-				</h1>
-				<div class="soustitre">
-					<p>Un savoir faire Français</p>
-				</div>
+
+					<h2>Un savoir faire Français</h2>
+
 					<p>Créée en 2015, la société a pour objectif de proposer aux amoureux de la gastronomie française un nouveau concept axé sur une restauration alliant fraîcheur des produits et saveurs gustatives.</p>
 					<p>
 					En offrant une gamme de produits respectueuse de notre environnement, Ratatouille s’inspire au mieux de la cuisine du marché afin de respecter les saisons. 
     				</p>	
 			</div>
-				<div id="haut_de_page" class="col-xs-4">
+				<div class="col-xs-4 imageqsn">
 					<img src="img/bio.JPG" class="img-responsive">
 					</div>
-			</div>
+			</section>
 
-		<div class="row">
+		<section class="row">
 
-			<div id="milieu_de_page" class="col-xs-4">
+			<div class="col-xs-4 imageqsn">
 				<img src="img/100.jpg" class="img-responsive">
 			</div>
 			
-			<div id="param" class="col-xs-8">
+			<div class="col-xs-8">
 				<h2>
 					Un équilibre alimentaire !
 				</h2>
@@ -60,10 +60,12 @@
 					<li> 3 laitages</li>
 				</ul>
 			</div>
-		</div>
-		<div class="row">
+		</section>
 
-			<div id="parab" class="col-xs-8">
+
+		<section class="row">
+
+			<div class="col-xs-8">
 				<h2>
 					Des produits de qualité !
 				</h2>
@@ -78,12 +80,12 @@
 					En plus, nos céréales sont issues de l'agriculture biologique !!! 
 				</p>
 			</div>
-			<div id="bas_de_page" class="col-xs-4">
+			<div class="col-xs-4 imageqsn">
 				<img src="img/carot.jpg" class="img-responsive">
 			</div>
-		</div>	
+		</section>
 		
-	</section>
+	</div>
        
         
     
