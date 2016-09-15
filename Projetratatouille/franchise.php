@@ -2,7 +2,7 @@
 <html>
 
 <head>
-        <title>Restaurant Ratatouille</title>
+        <title>Restaurant Ratatouille - devenir Franchisés</title>
         <meta charset="utf-8">
         <meta name="Restaurant Ratatouille cuisine traditionnelle Liscence ratatouille" content="165c. uniques">
 

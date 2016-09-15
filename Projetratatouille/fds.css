@@ -19,7 +19,7 @@ footer {height:40px; background-color: #1e1c1c; color:white;}
 .quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
 body {font-family: "afta", Impact; background-color: white}
 
-section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em}
+section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em; border: 1px solid black }
 
 h2 {margin-bottom:30px}
 
@@ -64,10 +64,11 @@ h2 {margin-bottom:30px}
 	padding-left: 0px;
 }
 
+/*nos restaurants*/
+
+
+
 /*page franchise*/
-
-
-
 
 .franchise h2, .quisommesnous h2 {font-family: "bilboReg", Impact;
 	font-size: 3em}

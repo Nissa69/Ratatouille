@@ -2,7 +2,7 @@
 <html>
 
 <head>
-        <title>Restaurant Ratatouille</title>
+        <title>Restaurant Ratatouille - Qui sommes-nous</title>
         <meta charset="utf-8">
         <meta name="Restaurant Ratatouille cuisine traditionnelle Liscence ratatouille" content="165c. uniques">
         
