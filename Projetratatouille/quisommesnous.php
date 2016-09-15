@@ -30,13 +30,13 @@
     				</p>	
 			</div>
 			<div id ="haut_de_page" class="col-xs-4">
-				<img src="https://lh3.googleusercontent.com/-dPww4nfQ-rI/VfmaW47VueI/AAAAAAAACF4/GP8CWTVlHio/w426-h320/Bio%2Bgreen%252C%2BMix%2Bvegetables.JPG" class="img-responsive">
+				<img src="img/bio.JPG" class="img-responsive">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-xs-4">
-				<img src="http://scontent.cdninstagram.com/t51.2885-15/s480x480/e15/11111302_578347362268124_1793974677_n.jpg?ig_cache_key=OTYzMzE2NTk0MzUyODE5MzMw.2" class="img-responsive">
+				<img src="img/100.jpg" class="img-responsive">
 			</div>
 			<div class="col-xs-8">
 				<h2>
