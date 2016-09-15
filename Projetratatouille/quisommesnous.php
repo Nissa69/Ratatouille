@@ -12,11 +12,13 @@
 </head>
 
 <body class="quisommesnous">
-    <div id="page" class="container-fluid" >
+    <div id="page" class="container" >
     
 <?php include ("header.php") ?>
           
-  
+<div>
+    
+</div>
    
 
     
