@@ -22,7 +22,7 @@ footer {height:40px; background-color: #1e1c1c; color:white;}
 		-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
   		background-size: cover; /*version standardisée */}
 
- .index h1 {font-family: "bilboStyle", Impact;
+.index h1 {font-family: "bilboStyle", Impact;
 			font-size: 8em;
 			color: white;
 			margin-top: 6%}
@@ -52,5 +52,61 @@ h2 {margin-bottom:30px}
 
 .bann_franch {max-height: 400px; max-width: 100%}
 
+
 .franchise h2 {font-family: "bilboReg", Impact;
 				font-size: 3em}
+
+.quisommesnous p {
+
+}
+
+body {
+	font-family: "afta";
+}
+
+#Aboutpage {
+	z-index: 999;
+	padding-top: 100px;
+}
+
+#haut_de_page {
+	/*display: block;
+	position: relative;*/
+	border: 5px solid black;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#milieu_de_page {
+	/*display: block;
+	position: relative;*/
+	border: 5px solid black;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#bas_de_page {
+	/*display: block;
+	position: relative;*/
+	border: 5px solid black;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+
+#parab {
+	padding-top: 50px;
+}
+
+#param {
+	padding-top: 50px;
+}
+
+#parat {
+	padding-top: 20px;
+}
+.soustitre {
+	text-transform: uppercase;
+}
+
+
