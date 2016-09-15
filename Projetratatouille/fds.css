@@ -22,7 +22,7 @@ footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !
 		-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
   		background-size: cover; /*version standardisée */}
 
- .index h1 {font-family: "bilboStyle", Impact;
+.index h1 {font-family: "bilboStyle", Impact;
 			font-size: 8em;
 			color: white;
 			margin-top: 6%}
@@ -41,4 +41,19 @@ footer {height:40px; background-color: #1e1c1c; color:white; position:absolute !
 /*page qui sommes-nous*/
 
 .quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
+
+#Aboutpage {
+	z-index: 999;
+	padding-top: 100px;
+}
+
+#haut_de_page {
+	/*display: block;
+	position: relative;*/
+	border: 5px solid black;
+}
+
+.soustitre {
+	text-transform: uppercase;
+}
 
