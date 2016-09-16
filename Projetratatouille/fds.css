@@ -14,24 +14,24 @@
 
 nav {font-size: 20px;}
 
-footer {height:40px; background-color: #1e1c1c; color:white;}
+footer { background-color: #1e1c1c; color:white; padding-top: 10px}
+footer a {color : white}
 
 .quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
 body {font-family: "afta", Impact; background-color: white}
 
-section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em; border: 1px solid black }
+section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em;  }
 
 h2 {margin-bottom:30px}
 
 .bann { margin-top: 50px}
-
-.footerdiv {margin:auto;}
 
 /*page index*/
 
 .index {background: url("img/accueil.jpg") no-repeat center fixed;
 		max-height:100%;
 		max-width:100%;
+		font-family: "afta", Impact;
 		-webkit-background-size: cover; /* pour anciens Chrome et Safari*/
   		background-size: cover; /*version standardisée */}
 
@@ -42,33 +42,42 @@ h2 {margin-bottom:30px}
 
 .index h2 {font-family: "bilboReg", Impact;
 			font-size: 4em;
-			color: white;
-			}
+			color: white; }
 
-
+.index  footer {
+	position : absolute; margin-bottom : 0px }
 
 .footerdiv {margin:auto;}
 
 .index .panel-default {	 padding:0px;
 						 background-color : rgba(255,255,255, 0.6);
-						 margin-top: 10%
+						 margin-top: 10%;
 						}
+
 
 /*page qui sommes-nous*/
 
 .imageqsn {
-	/*display: block;
-	position: relative;*/
+
 	border: 5px solid black;
-	padding-right: 0px;
-	padding-left: 0px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }
 
 /*nos restaurants*/
 
+.nosrestaurants section { background-color : white; border: 1px solid black}
+.nosrestaurants h2 {font-size: 1.7em}
 
 
 /*page franchise*/
 
 .franchise h2, .quisommesnous h2 {font-family: "bilboReg", Impact;
 	font-size: 3em}
+
+
+/*media queries*/
+@media screen and (min-width: 200px) and (max-width: 767px) {
+	.nosrestaurants section { background-color : white;
+		margin-left:9%; border: 1px solid black}
+}

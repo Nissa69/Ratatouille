@@ -5,6 +5,7 @@
         <title>Restaurant Ratatouille - devenir Franchisés</title>
         <meta charset="utf-8">
         <meta name="Restaurant Ratatouille cuisine traditionnelle Liscence ratatouille" content="165c. uniques">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="fds.css" rel="stylesheet">
