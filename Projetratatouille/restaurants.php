@@ -263,9 +263,9 @@
                 </div>
 
                 <div class="row">
-
+<h1 class="text-center">Nos Prochaines ouvertures:</h1>
                 <section class="col-xs-10 col-sm-3">
-                        <h2 class="text-center">Fontainebleau</h2>
+                        <h2 class="text-center">Fontaine</h2>
                         <p class="text-center"><img class="img-responsive" src="img/fontainebleau.jpg"></p>
                         <p class="text-center">
                                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#Fontainebleau">En savoir plus</button>
@@ -281,14 +281,14 @@
                                                         <h4 class="modal-title">Nos restaurants</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                        <h2>Fontainebleau</h2>
+                                                        <h2>Fontaine</h2>
                                                         <p><img class="img-responsive" src="img/fontainebleau.jpg"></p>
                                                         <p>Venez découvrir notre restaurant situé en plein coeur de la presque île!<br/>
                                                                 Si vous souhaitez réserver merci de contacter directement le restaurant :</p>
                                                         <dl>
-                                                                <dd><b>Adresse</b> : Les Mines Paris Tech35 rue Saint Honoré 77300 Fontainebleau </dd>
+                                                                <dd><b>Adresse</b> : Les Mines Paris Tech35 rue Saint Honoré 77300 Fontaine </dd>
                                                                 <dd><b>Tel </b>: 06 58 11 24 70</dd>
-                                                                <dd><b>E-mail </b>: lyon@restaurant-ratatouille.fr</dd>
+                                                                <dd><b>E-mail </b>: fontaine@restaurant-ratatouille.fr</dd>
                                                         </dl>
 
                                                 </div>

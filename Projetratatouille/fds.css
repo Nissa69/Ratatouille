@@ -1,5 +1,5 @@
 
-/*insertion des polices*/
+/*-----insertion des polices-----*/
 
 @font-face {font-family:"BilboReg";
 			src: url('fonts/bilbo/Bilbo-Regular.otf');}
@@ -10,7 +10,8 @@
 @font-face {font-family:"afta";
 			src: url('fonts/afta-sans/AftaSansThin-Regular.otf');}
 
-/*Commun*/
+/*-----Commun-----*/
+header {color:white;}
 
 nav {font-size: 20px;}
 
@@ -20,13 +21,16 @@ footer a {color : white}
 .quisommesnous, .franchise, .nosrestaurants  {background: url("img/cork-wallet.png") center fixed;}
 body {font-family: "afta", Impact; background-color: white}
 
-section {margin-bottom: 20px; margin-top: 20px; min-height : 200px; font-size: 1.3em;  }
+section {margin-bottom: 30px; margin-top: 30px; min-height : 200px; font-size: 1.3em;  }
 
 h2 {margin-bottom:30px}
 
 .bann { margin-top: 50px}
 
-/*page index*/
+.franchise h2, .quisommesnous h2, .nosrestaurants h2 {font-family: "bilboReg", Impact;
+	font-size: 3em}
+
+/*-----page index-----*/
 
 .index {background: url("img/accueil.jpg") no-repeat center fixed;
 		max-height:100%;
@@ -45,39 +49,43 @@ h2 {margin-bottom:30px}
 			color: white; }
 
 .index  footer {
-	position : absolute; margin-bottom : 0px }
+	position : absolute; margin-bottom : 0px; }
 
-.footerdiv {margin:auto;}
+
 
 .index .panel-default {	 padding:0px;
 						 background-color : rgba(255,255,255, 0.6);
-						 margin-top: 10%;
+						 margin-top: 15%;
+	font-size: 1.4em;
 						}
 
 
-/*page qui sommes-nous*/
+/*-----page qui sommes-nous-----*/
 
 .imageqsn {
 
 	border: 5px solid black;
-	padding-right: 0px !important;
-	padding-left: 0px !important;
+	padding-right: 0px;
+	padding-left: 0px;
+
 }
 
-/*nos restaurants*/
+
+/*-----nos restaurants-----*/
 
 .nosrestaurants section { background-color : white; border: 1px solid black}
-.nosrestaurants h2 {font-size: 1.7em}
 
 
-/*page franchise*/
 
-.franchise h2, .quisommesnous h2 {font-family: "bilboReg", Impact;
-	font-size: 3em}
+/*-----page franchise-----(voir styles communs)*/
 
 
-/*media queries*/
+
+
+/*-----media queries-----*/
 @media screen and (min-width: 200px) and (max-width: 767px) {
 	.nosrestaurants section { background-color : white;
 		margin-left:9%; border: 1px solid black}
+
+	.index h1 {font-size: 5em; margin-top : 17%; text-align:center;}
 }
